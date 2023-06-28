@@ -1,0 +1,117 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .header{
+        padding-top: 32px;
+        &_input {
+            display: none;
+        }
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logotop {
+        &_img {
+            width: 99px;
+        }
+    }
+
+    .menu_mob {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .texth1 {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .textp {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .top {
+        &_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    .link {
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &_item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+            &_big {
+                height: 244px;
+            }
+        }
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .texth3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .textpp {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .textpay {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .textpay2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .texth2_2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .product {
+        &_lable_i {
+            padding-top: 9px;
+            padding-bottom: 4px;
+        }
+    }
+
+    .footer {
+        &_content {
+            justify-content: center;
+            gap: 32px;
+        }
+
+        &_info {
+            gap: 100px;
+        }
+    }
+
+}
